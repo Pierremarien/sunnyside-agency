@@ -1,111 +1,27 @@
-.title_large {
-    font-size: $titletext;
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: $default;
-    font-family: $titre;
-    z-index: 0;
+/*
+font-family: 'Barlow', sans-serif;
+font-family: 'Fraunces', serif;
+*/
+
+body {
+    font-size: 18px;
 }
 
-.menu_title {
-    font-size: $biggertext;
-    padding: $paddingbutton;
-    font-family: $titre;
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Fraunces', serif;
+font-weight: 700;
 }
 
-.subtitle {
-    text-align: center;
-    padding: $paddingbutton;
-    font-family: $text;
-}
-
-.fade_title {
-    text-align: left;
-    font-size: $ultrabigtext;
-    padding-left: 10px;
-    color: $golden;
-    opacity: 20%;
-    text-transform: uppercase;
-    position: absolute;
-    margin-top: -4%;
-    font-family: $titre;
-}
-
-.fade_title_back {
-    @extend .fade_title;
-    z-index: -1;
-}
-
-input[type="text"], button, p {
-    font-family: $text;
-}
-
-p {
-    font-weight: $light;
-    font-size: $smalltext;
-    font-optical-sizing: auto;
-}
-
-@media only screen and (max-width: 1080px) {
-    .fade_title {
-        display: none;
-    }
-    .fade_title_back {
-        display: none;
-    }
-    .title_large {
-        font-size: 1.6em;
-    }
-    .subtitle {
-        font-size: $smalltext;
-    }
-}
-
-.special_box_title {
-    font-family: $titre;
-    font-size: $biggertext;
-    font-weight: $medium;
-    line-height: 1.6;
-    text-transform: capitalize;
-}
-
-.price {
-    font-size: $verybigtext;
-    color: $golden;
-    font-family: $titre;
-}
-
-.blog_cards_content_info {
-    font-family: $text;
-    text-transform: uppercase;
-    font-size: $xsmalltext;
-}
-
-.aboutUs {
-    font-family: $titre;
-    font-size: $aboutustext;
-    margin-bottom: $paddingbutton;
-}
-
-.chefs {
-    color: $white;
-}
-
-.blackbgtitle {
-    color: #202020;
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
 }
 
 h1 {
-    font-family: $titre;
-    color: $white;
-    font-size: $ultrabigtext;
+    color:white;
+    font-size: 56px;
     text-transform: uppercase;
-    margin-top: 130px;
-    margin-left: 80px;
-}
-
-.footertitle {
-    font-family: $titre;
-    font-size: $titletext;
-    margin-bottom: $normaltext;
+    text-align: center;
 }

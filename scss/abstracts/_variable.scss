@@ -1,43 +1,14 @@
-/* Colors */
+// Colors
 
-$beige: #faf6f0;
-$black: #0f0f0f;
-$golden: #c8a96a;
-$white: #ffffff;
-$grey: #b0b0b0;
-$darkgrey: rgb(45, 45, 45);
-$sepia: linear-gradient(to bottom, rgba(243, 236, 211, 0.249),rgba(232, 218, 188, 0.393));
+$Soft-red: hsl(7, 99%, 70%);
+$Yellow: hsl(51, 100%, 49%);
+$Dark-desaturated-cyan: hsl(167, 40%, 24%);
+$Dark-blue: hsl(198, 62%, 26%);
+$Dark-moderate-cyan: hsl(168, 34%, 41%);
 
-/* Fonts */
-
-$titre: 'Cormorant Garamond', serif;
-$text: 'DM Sans', sans-serif;
-
-/* Fontweights */
-
-$lighter : 200;
-$light: 300;
-$default: 400;
-$medium: 500;
-$bold: 600;
-
-/* Fontsize */
-
-$xsmalltext : 0.7em;
-$smalltext : 0.9em;
-$normaltext: 1em;
-$biggertext: 1.3em;
-$titletext : 2em;
-$verybigtext: 3em;
-$ultrabigtext: 9em;
-$aboutustext: 1.6em;
-
-/* padding */
-
-$paddingbutton : 1em;
-$paddingsection: 8%;
-$paddingcontent: 4em;
-
-/* margin */
-
+$Very-dark-desaturated-blue: hsl(212, 27%, 19%);
+$Very-dark-grayish-blue: hsl(213, 9%, 39%);
+$Dark-grayish-blue: hsl(232, 10%, 55%);
+$Grayish-blue: hsl(210, 4%, 67%);
+$White: hsl(0, 0%, 100%);
 
