@@ -43,7 +43,7 @@ header {
 
   .menu-items > li {
     margin: 0 1rem;
-    a {
+    .btn {
         padding: 14px 31px;
         border-radius: 50px;
         &:hover {
@@ -53,9 +53,13 @@ header {
   }
 
   .menu-items li:last-child {
-    a {
+    .btn {
         background-color: #FFF;
         color: black;
+        &:hover {
+            background-color: $Dark-blue;
+            color: $White;
+        }
     }
   }
 
@@ -140,7 +144,7 @@ header {
       border: 0;
       transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
     }
-    #menu-toggle ~ .menu-items a {
+    #menu-toggle ~ .menu-items .btn {
         display: none;
     }
     #menu-toggle:checked ~ .menu-items li {
@@ -151,7 +155,7 @@ header {
     #menu-toggle:checked ~ .menu-items {
         background-color: #FFF;
         border-top: 10px solid $White;
-        a {
+        .btn {
            display: block; 
            background-color: none;
            color: black;
@@ -160,7 +164,7 @@ header {
            }
         }
         li:last-child{
-            a {
+            .btn {
                 background-color: $Yellow;
                 &:hover {
                     background-color: $White;

@@ -8,8 +8,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-font-family: 'Fraunces', serif;
-font-weight: 700;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
 }
 
 a {
@@ -24,4 +24,15 @@ h1 {
     font-size: 56px;
     text-transform: uppercase;
     text-align: center;
+}
+
+p {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    color: $Dark-grayish-blue;
+    letter-spacing: -0.13px;
+}
+
+h3 {
+    font-size: 28px;
 }

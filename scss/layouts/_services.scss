@@ -1,0 +1,49 @@
+.graphic {
+    background-image: url(../../images/photos/image-graphic-design.jpg);
+}
+.photography {
+    background-image: url(../../images/photos/image-photography.jpg);
+}
+#services {
+    display: flex;
+    flex-direction: column;
+    article {
+        width: 100%;
+        height: 600px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover; 
+        background-repeat: no-repeat;
+        background-position: center center;
+        .content {
+            padding: 398px 24px 59px 24px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            flex-wrap: wrap;
+            p {
+                padding-top: 27px;
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #services {
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    #services {
+        article {
+            .content {
+                padding: 398px 190px 59px 191px;
+            }
+        }
+    }
+    
+}
