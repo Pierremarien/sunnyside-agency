@@ -430,6 +430,71 @@ header .container_arrow {
     gap: 30px;
   }
 }
+#contact {
+  display: flex;
+  flex-direction: column;
+}
+#contact .gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+#contact .gallery figure {
+  position: relative;
+  aspect-ratio: 1/1;
+  display: flex;
+  width: 100%;
+}
+#contact .gallery figure img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#contact .contacts {
+  background-color: #90d4c6;
+  padding: 64px 39px 80px 39px;
+}
+#contact .contacts .footercontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#contact .contacts .footercontainer ul {
+  display: flex;
+  flex-direction: row;
+  gap: 57px;
+  padding-top: 40px;
+  padding-bottom: 88px;
+}
+#contact .contacts .footercontainer ul a {
+  color: hsl(168, 34%, 41%);
+}
+#contact .contacts .footercontainer ul a:hover {
+  color: hsl(0, 0%, 100%);
+}
+#contact .contacts .footercontainer .links {
+  display: flex;
+  flex-direction: row;
+  gap: 28px;
+}
+#contact .contacts .footercontainer .links svg {
+  cursor: pointer;
+}
+#contact .contacts .footercontainer .links svg:hover path {
+  fill: hsl(0, 0%, 100%);
+}
+
+@media screen and (min-width: 1280px) {
+  #contact .gallery {
+    display: flex;
+    flex-direction: row;
+  }
+  #contact .contacts {
+    padding: 72px 570px 72px 570px;
+  }
+}
 /*
 font-family: 'Barlow', sans-serif;
 font-family: 'Fraunces', serif;
