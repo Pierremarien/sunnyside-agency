@@ -23,9 +23,17 @@
             align-items: center;
             text-align: center;
             flex-wrap: wrap;
+            color: $Dark-desaturated-cyan;
             p {
                 padding-top: 27px;
                 font-size: 16px;
+                color: $Dark-desaturated-cyan;
+            }
+            &--photo {
+                color: $Dark-blue;
+                p {
+                    color: $Dark-blue;
+                }
             }
         }
     }
